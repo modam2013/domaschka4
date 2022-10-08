@@ -25,7 +25,7 @@ public class Cikli {
 
         }System.out.println( "  " );
 
-           for (int i = 1; i<513; i=i*2) {
+           for (int i = 1; i<=513; i=i*2) {
                System.out.print( i + " ");
 
             }System.out.println(" " );
@@ -36,15 +36,15 @@ public class Cikli {
                   total=total + salari;
                   System.out.println( "месяц " +i+ "сумма накоплений равна  " + total+ " рублей ");
               }
-             System.out.println( " Задание  . Циклы   " );
-
-              int salari1=29000;
-               int total1=0;
-               for ( int i =1;i<12;i++ ){
-                   total1=total1+total1/100;
+        int salari1=29000;
+        int total1=0;
+        for ( int i =1;i<12;i++ ){
+            total1=total1+total1/100;
             total1=total1  + salari1;
             System.out.println( "месяц " +i+ "сумма накоплений равна  " + total1+ " рублей ");
         }
+
+
 
 
 
